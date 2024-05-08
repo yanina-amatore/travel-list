@@ -23,7 +23,7 @@ export default function PackingList({ items, onDeleteItem, onToggleItem, onClear
       
     <div className="list">
       
-          <ul className="no-scroll">
+          <ul>
             {sortedItems.map((item) => (
               <Item
                 item={item}
